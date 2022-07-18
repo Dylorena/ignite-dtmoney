@@ -5,14 +5,14 @@ export const Container = styled.div`
 
   table {
     width: 100%;
-    letter-spacing: 0 0.5rem;
+    border-spacing: 0 0.5rem;
 
     th {
       color: var(--text-body);
       font-weight: 400;
       text-align: left;
       padding: 1rem 2rem;
-      line-height: 11.5rem;
+      line-height: 1.5rem;
     }
 
     td {
