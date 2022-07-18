@@ -1,6 +1,6 @@
 import { Container } from "./styles";
 import incomingImg from '../../assets/income.svg'
-import outcomoutgImg from '../../assets/income.svg'
+import outcomoutgImg from '../../assets/outcome.svg'
 import totalImg from '../../assets/total.svg'
 import { useTransactions } from "../../hooks/useTransactionsContext";
 
