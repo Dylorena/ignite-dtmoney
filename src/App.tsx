@@ -4,7 +4,7 @@ import { Header } from './components/header';
 import { GlobalStyle } from './styles/global';
 import { useState } from 'react';
 import { NewTransactionModal } from './components/NewTransactionModal';
-import { TransactionsProvider } from './TransactionsContext';
+import { TransactionsProvider } from './hooks/useTransactionsContext';
 
 function App() {
   const [isNewTransactionModalOpen, SetIsNewTransactionModalOpen] = useState(false)
